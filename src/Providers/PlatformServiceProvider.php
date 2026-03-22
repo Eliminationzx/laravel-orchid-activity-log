@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\Providers;
+namespace Orchid\ActivityLog\Providers;
 
 use App\Models\Activity;
 use Manzadey\LaravelOrchidHelpers\Services\PlatformPermissionService;

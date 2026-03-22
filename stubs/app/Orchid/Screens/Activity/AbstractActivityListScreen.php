@@ -17,7 +17,7 @@ use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\ActionsTD;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\CreatedAtTD;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\EntityRelationTD;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\IdTD;
-use Manzadey\OrchidActivityLog\View\Components\Platform\Activity\EventComponent;
+use Orchid\ActivityLog\View\Components\Platform\Activity\EventComponent;
 use Orchid\Screen\Actions\DropDown;
 use Orchid\Screen\Layouts\Selection;
 use Orchid\Screen\TD;

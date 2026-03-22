@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\Services;
+namespace Orchid\ActivityLog\Services;
 
 class ActivityService
 {

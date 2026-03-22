@@ -16,7 +16,7 @@ use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Sights\IdSight;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\CreatedAtTD;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\EntityRelationTD;
 use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD\IdTD;
-use Manzadey\OrchidActivityLog\View\Components\Platform\Activity\PropertiesComponent;
+use Orchid\ActivityLog\View\Components\Platform\Activity\PropertiesComponent;
 use Orchid\Screen\Actions\Button;
 use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Sight;

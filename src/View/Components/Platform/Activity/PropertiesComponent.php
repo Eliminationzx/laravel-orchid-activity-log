@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\View\Components\Platform\Activity;
+namespace Orchid\ActivityLog\View\Components\Platform\Activity;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;

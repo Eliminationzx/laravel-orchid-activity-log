@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\Orchid\Actions\Menu;
+namespace Orchid\ActivityLog\Orchid\Actions\Menu;
 
 use App\Models\Activity;
-use Manzadey\OrchidActivityLog\Services\ActivityService;
+use Orchid\ActivityLog\Services\ActivityService;
 use Orchid\Screen\Actions\Menu;
 
 class ActivityMenu

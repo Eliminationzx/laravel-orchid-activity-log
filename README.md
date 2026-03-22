@@ -9,7 +9,7 @@ Laravel Orchid Activity Log wrapper.
 ## Installing
 
 ```shell
-$ composer require manzadey/laravel-orchid-activity-log
+$ composer require eliminationzx/laravel-orchid-activity-log
 ```
 
 ## Usage

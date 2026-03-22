@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\Console\Commands;
+namespace Orchid\ActivityLog\Console\Commands;
 
 use Illuminate\Console\Command;
-use Manzadey\OrchidActivityLog\Providers\FoundationServiceProvider;
+use Orchid\ActivityLog\Providers\FoundationServiceProvider;
 use Spatie\Activitylog\ActivitylogServiceProvider;
 
 class InstallCommand extends Command

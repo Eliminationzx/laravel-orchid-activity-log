@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\OrchidActivityLog\Providers;
+namespace Orchid\ActivityLog\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Manzadey\OrchidActivityLog\Console\Commands\InstallCommand;
-use Manzadey\OrchidActivityLog\Console\Commands\InstallScreensCommand;
+use Orchid\ActivityLog\Console\Commands\InstallCommand;
+use Orchid\ActivityLog\Console\Commands\InstallScreensCommand;
 
 class FoundationServiceProvider extends ServiceProvider
 {
