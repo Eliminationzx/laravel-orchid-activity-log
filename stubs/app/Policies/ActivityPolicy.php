@@ -5,7 +5,7 @@ namespace App\Policies;
 use App\Models\Activity;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Manzadey\LaravelOrchidHelpers\Services\PlatformPermissionService;
+use OrchidHelpers\Services\PlatformPermissionService;
 
 class ActivityPolicy
 {
