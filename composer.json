@@ -12,9 +12,9 @@
     }
   ],
   "require": {
-    "php": "^8.2",
+    "php": "^8.3",
     "ext-json": "*",
-    "eliminationzx/laravel-orchid-helpers": "^1.0",
+    "eliminationzx/laravel-orchid-helpers": "^3.0.2",
     "spatie/laravel-activitylog": "^4.12"
   },
   "require-dev": {
