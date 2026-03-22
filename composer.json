@@ -14,7 +14,7 @@
   "require": {
     "php": "^8.3",
     "ext-json": "*",
-    "eliminationzx/laravel-orchid-helpers": "^3.0.3",
+    "eliminationzx/laravel-orchid-helpers": "^3.0.4",
     "spatie/laravel-activitylog": "^4.12"
   },
   "require-dev": {
