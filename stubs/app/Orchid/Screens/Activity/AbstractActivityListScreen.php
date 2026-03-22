@@ -7,7 +7,9 @@ namespace App\Orchid\Screens\Activity;
 use App\Models\Activity;
 use Illuminate\Database\Eloquent\Builder;
 use OrchidHelpers\Orchid\Filters\CreatedTimestampFilter;
+use OrchidHelpers\Orchid\Filters\DateRangeFilter;
 use OrchidHelpers\Orchid\Filters\IdFilter;
+use OrchidHelpers\Orchid\Filters\SearchFilter;
 use OrchidHelpers\Orchid\Filters\UserFilter;
 use OrchidHelpers\Orchid\Helpers\Layouts\ModelsTableLayout;
 use OrchidHelpers\Orchid\Helpers\Links\DropdownOptions;
@@ -79,6 +81,8 @@ abstract class AbstractActivityListScreen extends AbstractScreen
         return Layout::selection([
             IdFilter::class,
             new UserFilter('causer_id'),
+            new DateRangeFilter('created_at'),
+            new SearchFilter(['event', 'description', 'properties']),
             CreatedTimestampFilter::class,
         ]);
     }

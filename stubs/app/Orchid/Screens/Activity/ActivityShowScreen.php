@@ -8,6 +8,7 @@ use App\Models\Activity;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use JetBrains\PhpStorm\ArrayShape;
+use OrchidHelpers\Orchid\Helpers\Alerts\SuccessAlert;
 use OrchidHelpers\Orchid\Helpers\Layouts\ModelLegendLayout;
 use OrchidHelpers\Orchid\Helpers\Screens\ShowScreen;
 use OrchidHelpers\Orchid\Helpers\Sights\CreatedAtSight;
@@ -97,6 +98,15 @@ class ActivityShowScreen extends ShowScreen
                 ->where('subject_id', $activity->subject_id)
                 ->latest('id')
                 ->first();
+            
+            SuccessAlert::make(__('activities.revert_success'))
+                ->withTimer()
+                ->flash();
+        } else {
+            SuccessAlert::make(__('activities.revert_no_changes'))
+                ->type('info')
+                ->withTimer()
+                ->flash();
         }
 
         return to_route('platform.activities.show', $activity);
