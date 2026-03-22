@@ -17,7 +17,7 @@ use OrchidHelpers\Orchid\Helpers\Sights\IdSight;
 use OrchidHelpers\Orchid\Helpers\TD\CreatedAtTD;
 use OrchidHelpers\Orchid\Helpers\TD\EntityRelationTD;
 use OrchidHelpers\Orchid\Helpers\TD\IdTD;
-use Orchid\ActivityLog\View\Components\Platform\Activity\PropertiesComponent;
+use OrchidActivityLog\View\Components\Platform\Activity\PropertiesComponent;
 use Orchid\Screen\Actions\Button;
 use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Sight;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Orchid\ActivityLog\Console\Commands;
+namespace OrchidActivityLog\Console\Commands;
 
 use Illuminate\Console\Command;
-use Orchid\ActivityLog\Providers\FoundationServiceProvider;
+use OrchidActivityLog\Providers\FoundationServiceProvider;
 use Spatie\Activitylog\ActivitylogServiceProvider;
 
 class InstallCommand extends Command

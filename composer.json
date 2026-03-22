@@ -21,9 +21,9 @@
     "roave/security-advisories": "dev-latest"
   },
   "autoload": {
-    "psr-4": {
-      "Orchid\\ActivityLog\\": "src/"
-    }
+      "psr-4": {
+          "OrchidActivityLog\\": "src/"
+      }
   },
   "autoload-dev": {
     "psr-4": {
@@ -31,11 +31,11 @@
     }
   },
   "extra": {
-    "laravel": {
-      "providers": [
-        "Orchid\\ActivityLog\\Providers\\FoundationServiceProvider",
-        "Orchid\\ActivityLog\\Providers\\PlatformServiceProvider"
-      ]
-    }
+      "laravel": {
+          "providers": [
+              "OrchidActivityLog\\Providers\\FoundationServiceProvider",
+              "OrchidActivityLog\\Providers\\PlatformServiceProvider"
+          ]
+      }
   }
 }

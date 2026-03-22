@@ -6,7 +6,7 @@ use App\Models\Activity;
 use App\Orchid\Screens\Activity\ActivityListScreen;
 use App\Orchid\Screens\Activity\ActivityShowScreen;
 use Illuminate\Support\Facades\Route;
-use Orchid\ActivityLog\Services\ActivityService;
+use OrchidActivityLog\Services\ActivityService;
 use Tabuna\Breadcrumbs\Trail;
 
 Route::prefix('activities')

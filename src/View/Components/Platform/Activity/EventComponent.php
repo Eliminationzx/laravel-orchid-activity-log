@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\ActivityLog\View\Components\Platform\Activity;
+namespace OrchidActivityLog\View\Components\Platform\Activity;
 
 use App\Models\Activity;
 use Illuminate\Contracts\View\View;

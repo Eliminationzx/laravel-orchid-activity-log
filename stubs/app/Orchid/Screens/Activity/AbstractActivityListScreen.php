@@ -19,7 +19,7 @@ use OrchidHelpers\Orchid\Helpers\TD\ActionsTD;
 use OrchidHelpers\Orchid\Helpers\TD\CreatedAtTD;
 use OrchidHelpers\Orchid\Helpers\TD\EntityRelationTD;
 use OrchidHelpers\Orchid\Helpers\TD\IdTD;
-use Orchid\ActivityLog\View\Components\Platform\Activity\EventComponent;
+use OrchidActivityLog\View\Components\Platform\Activity\EventComponent;
 use Orchid\Screen\Actions\DropDown;
 use Orchid\Screen\Layouts\Selection;
 use Orchid\Screen\TD;

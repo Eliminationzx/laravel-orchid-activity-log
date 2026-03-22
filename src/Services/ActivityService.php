@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\ActivityLog\Services;
+namespace OrchidActivityLog\Services;
 
 class ActivityService
 {

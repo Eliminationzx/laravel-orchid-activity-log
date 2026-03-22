@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Orchid\ActivityLog\Orchid\Actions\Links;
+namespace OrchidActivityLog\Orchid\Actions\Links;
 
-use Orchid\ActivityLog\Services\ActivityService;
+use OrchidActivityLog\Services\ActivityService;
 use Orchid\Screen\Actions\Link;
 
 class ActivityLink

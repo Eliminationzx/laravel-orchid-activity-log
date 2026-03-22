@@ -6,7 +6,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Support\Collection;
-use Orchid\ActivityLog\Orchid\Presenters\ActivityLogPresenter;
+use OrchidActivityLog\Orchid\Presenters\ActivityLogPresenter;
 use Orchid\Filters\Filterable;
 use Orchid\Screen\AsSource;
 use Orchid\Screen\Repository;

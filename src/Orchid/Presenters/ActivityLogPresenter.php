@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\ActivityLog\Orchid\Presenters;
+namespace OrchidActivityLog\Orchid\Presenters;
 
 use Illuminate\Support\Facades\Route;
 use Orchid\Screen\Contracts\Personable;
